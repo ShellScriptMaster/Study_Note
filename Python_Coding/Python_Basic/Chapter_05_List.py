@@ -76,5 +76,153 @@ for i in lst:       # print every element in the list
     print(i)
 ########################################################################################################################
 # Add, Delete, Change For List Element
+
+# 向列表末尾增加元素
+"""
+append() 在列表末尾添加一个元素
+extend() 在列表末尾至少添加一个元素
+insert() 在列表指定位置添加一个元素
+切片      在列表指定位置替换/添加至少一个元素 
+"""
+lst = [10,20,30]
+print(id(lst))
+lst.append(100)
+print(lst,id(lst))          # 查看是否新增列表对象   ---> 还是原来的变量,内存ID地址未改变
+lst2 = ['hello world',2,102]
+# 向列表末尾一次性添加多个元素
+# lst.append(lst2)            # 将列表作为整体元素添加到列表末尾 append
+lst.extend(lst2)
+print(lst)                    # 向列表中一次性添加多个元素(将列表元素拆开放入列表 )
+a = range(1,20)
+lst.extend(a)
+print(lst)
+# 向列表插入元素
+lst = [0,10,20,30,40,50,60,70,80,90,100]
+lst.insert(1,90)        # 在1号位添加90这个元素
+print(lst)
+lst.insert(-1,100)      # 支持2种顺序插入元素
+lst1 = [0,10,20,30,40,50,60,70,80,90,100]
+print(lst1)
+lst3 = [True,False,'hello']
+# 切片添加
+lst1[1:4] = lst3
+print(lst1)              # 1号位到3号位的元素将被lst3的元素替代
+lst1 = [0,10,20,30,40,50,60,70,80,90,100]
+lst1[1:1] = lst3         # 可以设置在2号位开始添加多个元素
+print(lst1)
+
+# 从列表删除元素 remove() , poo(), 切片, clear(), del()
+"""
+remvoe() 
+    一次删除一个元素
+    重复元素只删除第一个
+    元素不存在返回ValueError
+pop()
+    删除一个指定索引位置上的元素
+    指定索引不存在返回IndexError
+    不指定索引，默认删除列表中最后一个元素
+切片
+    一次至少删除一个元素
+clear()
+    清空列表
+del
+    删除列表
+"""
+# remove()
+lst1 = [10,20,30,40,50,60,30]
+lst1.remove(30)
+print(lst1)     # 剔除一个元素，重复元素只剔除第一个
+# lst1.remove(100) 不存在的元素不能移除
+# pop()
+print('lst1 is ',lst1)
+lst1.pop(1)
+print(lst1)
+# lst1.pop(10)  # 指定索引不存在返回IndexError
+lst1.pop()      # 不指定位置默认删除最后一个
+print(lst1)
+# 切片 删除至少一个元素，产生新的一个列表对象
+lst = [10,20,30,40,50,60,30]
+print(id(lst),lst)
+newlst = lst[1:4]
+print(id(newlst),newlst)            # 产生新的列表对象
+lst[1:4]=[]
+print(id(lst),lst)                      # 不产生新的列表对象
+# clear() 清除列表元素
+lst.clear()
+print(lst)                         # 变成空列表
+# del  删除列表
+del lst
+# print(lst)    删除列表，lst变成未被定义了
+
+# 修改列表元素
+"""
+指定索引元素赋予一个新值
+指定切片赋予一个新值
+"""
+Clst = list(range(10,50,10))  # 等同于 Clst = [10,20,30,40]
+print(id(Clst),Clst)
+# 一次修改一个值
+Clst[2] = 100       # 将2号位的值改为100
+print(id(Clst),Clst)  # 未生成新的列表对象
+for i in Clst:
+    print(id(i))      # 查看列表中每个元素的内存地址ID
+# 修改列表中多个元素
+print(Clst)
+Clst[1:3] = [2,3,4,5,6,7]
+print(Clst)
+########################################################################################################################
+
 # Sorting for List element
-# 列表推导式
+"""
+常见方式：
+    调用sort()方法
+        列表中元素默认从小到大进行排列
+        可以指定reverse=True 进行降序排序
+    调用内置函数sorted()
+        指定reverse=True， 进行降序排序
+        产生新的列表对象
+"""
+# sort() 列表对象方法
+Slst = [20,30,40,85,99,82,58,34,21,37]
+print('Before Sorting',Slst,id(Slst))
+Slst.sort()
+print('After Sorting',Slst,id(Slst))
+Slst.sort(reverse=True)     # 进行降序排序
+print('After Sorting',Slst,id(Slst))
+
+# sorted() 函数
+Slst = [20,30,40,85,99,82,58,34,21,37]
+print('Before Sorting',Slst,id(Slst))
+newSlst = sorted(Slst)
+print('sorted After Sorting',newSlst,id(newSlst))
+newSlst = sorted(Slst,reverse=True)
+print('sorted After Sorting',newSlst,id(newSlst))
+########################################################################################################################
+
+# 列表推导式 --> 生成列表的公式
+"""
+语法格式：
+    [i for i in range(1,10)]
+"""
+mylst = [ i for i in range(1,10)]
+print(mylst)
+
+lst4 = []
+for i in mylst:
+    new = i*2
+    lst4.append(new)
+print(lst4)
+
+mylst = [ i * i for i in range(1,10)]
+print(mylst)
+
+# 要求列表中元素为2，4，6，8，10
+# 方法1
+lst5 = [ i * 2  for i in range(1,6)]
+print(lst5)
+# 方法2
+lst5 = []
+for i in range(1,6):
+    ele = i * 2
+    lst5.append(ele)
+print(lst5)
