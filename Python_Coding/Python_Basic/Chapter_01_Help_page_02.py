@@ -1,1 +1,1 @@
-help(open)
+help(zip)
