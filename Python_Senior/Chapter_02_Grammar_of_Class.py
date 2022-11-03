@@ -35,4 +35,39 @@ print(d.d_type, d2.d_type)
 # 类属性, 类变量, 公共属性  所有实例共享
 # 实例属性, 实例变量, 成员变量, 每个实例独享
 
+# 类属性的引用与修改  针对类属性进行的修改会应用到类的所有实例中
+Dog.d_type='金毛'
+print(d.d_type)
+print(Dog.d_type)
+print(d2.d_type)
+print('*'*30)
+
+
+class People:
+    Nationality = 'CN'
+
+    def __init__(self, name, sexual, age):
+        self.name = name
+        self.age = age
+        self.sexual = sexual
+        print(self.name, self.sexual, self.age)
+
+
+Person1 = People('Jimmy', 'Male', 23)
+Person2 = People('Cindy', 'Female', 24)
+print(Person2.Nationality, Person1.Nationality)
+
+Person1.Nationality = 'USA'         # 可以修改Person1 单独的国籍，相当于self.Nationality = 'USA'
+Person2.Nationality = 'UK'          # 可以修改Person2 单独的国籍，相当于self.Nationality = 'UK'
+print('对象属性', Person2.Nationality, Person1.Nationality)
+print('类属性', People.Nationality)           # 实例修改的属性属于自己的实例属性，不会对类属性产生影响
+
+# 实例属性的引用与修改   实例属性不能通过类调用，只能通过实例进行调用
+print('*'*30)
+# print(Dog.name2)   --> Error
+d.name2 = 'Jack'
+d.color = 'Gold'
+print(d.name2, d.color)
+
+
 
