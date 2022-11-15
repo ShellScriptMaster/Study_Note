@@ -1,1 +1,2 @@
-help(zip)
+import os
+help(os.rename)

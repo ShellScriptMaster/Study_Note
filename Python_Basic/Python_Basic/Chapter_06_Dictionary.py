@@ -142,3 +142,4 @@ items = ['book','Course','software','apple','laptop','pot']         # 6 argument
 prices = [20,300,60,8.6,3698]                                       # 5 arguments
 good_dict = { items:prices for items ,prices in zip(items,prices) } # 木桶原理，以最少的参数作为字典元素的个数，因此最后只生成5个元素的字典
 print(good_dict)
+########################################################################################################################
