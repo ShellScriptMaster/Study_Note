@@ -38,7 +38,7 @@ p1 = Person('Bob', 32)
 get_walk = getattr(p1, 'walk')  # 结果相当于 p1.walk()
 get_name = getattr(p1, 'name')  # 结果相当于 p1.name
 # get_gender = getattr(p1, 'gender')  由于p1不存在gender为名的属性或方法，因此报错
-get_gender = getattr(p1,'gender', None)
+get_gender = getattr(p1, 'gender', None)
 print(get_gender)
 get_walk()
 
@@ -58,6 +58,16 @@ print(p2_gender, p2_name)
 p2_walk = getattr(p2, 'eat')
 p2_walk()
 
+# 使用setattr 绑定类方法
+# 先在类外定义一个方法
+def shopping(self):
+    print(self.name, ' is shopping')
 
-
+# 将方法与类进行绑定
+setattr(Person, 'Shopping', shopping)
+# 类实例化
+p3 = Person('Pony', 33)
+p3_shop = getattr(p3, 'Shopping')
+# 引用方法
+p3_shop()
 
