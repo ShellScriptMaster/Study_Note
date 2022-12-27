@@ -31,3 +31,10 @@ p2_speak()
 print(__name__)
 if __name__ == '__main__':          # 当且仅当此模块未被导入的时候, __name__ 才等于 __main__
     print('__name__ == __main__')
+
+import sys
+module = sys.modules[__name__]
+if hasattr(module, 'p1'):
+    p1_module = getattr(module, 'p1')       # 查看模块里面p1 对象属性
+    print(p1_module)
+print(p1)
