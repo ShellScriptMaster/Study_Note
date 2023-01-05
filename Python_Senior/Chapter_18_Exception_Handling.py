@@ -26,7 +26,7 @@
             ValueError    传入一个调用者不期望的值 即使值的类型是正确的
         触发错误
             raise 异常代码(NameError)
-
+        自定义异常
 """
 
 while True:
@@ -66,6 +66,60 @@ while True:
     finally:
         print('无论是否发生异常都会执行finally')
         break
+
+print('*'*30, '自定义异常', '*'*30)
+
+
+class MyException(BaseException):           # 所有的异常都是继承BaseException而来
+    def __init__(self, msg):
+        self.message = msg
+
+    def __str__(self):
+        return self.message                 # 异常信息
+
+try:
+    raise MyException('自定义异常')
+
+except MyException as i:
+    print(i)
+
+
+class VpnError(BaseException):
+    def __init__(self, vpn):
+        self.vpn = vpn
+
+    def __str__(self):
+        if self.vpn.lower() == 'down':
+            return 'vpn is down'
+        else:
+            return 'up'
+
+
+class FireWallError(BaseException):
+    def __init__(self, fire_wall):
+        self.fire_wall = fire_wall
+
+    def __str__(self):
+        if self.fire_wall.lower() == 'up':
+            return 'fire_wall is up'
+        else:
+            return 'down'
+
+
+vpn_down = VpnError('down')
+fire_up = FireWallError('up')
+
+try:
+    raise vpn_down
+
+except VpnError as vpn_e:
+    print(vpn_e)
+
+try:
+    raise fire_up
+
+except FireWallError as firewall_e:
+    print(firewall_e)
 
 
 
