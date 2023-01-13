@@ -17,9 +17,6 @@ import os
             rb --> read bytes
                 读取非文本文件
             修改
-                
-                
-
         encoding:
             打开文本文件需要给一个'utf-8'/ 'GDK'
 
@@ -94,7 +91,6 @@ with open('OOP_Basic/Junior_Chapter_11_Object_Oriented.png', mode='rb' ) as init
     需要修改的使用replace()方法进行修改并且存入副本文件中
     使用os模块的remove()方法将源文件删除
     使用os模块的rename()方法对副本文件进行重命名
-    
 """
 # 生成一个源文件
 with open('Chapter_11_Testing.txt', mode='w', encoding='utf-8') as sample:
