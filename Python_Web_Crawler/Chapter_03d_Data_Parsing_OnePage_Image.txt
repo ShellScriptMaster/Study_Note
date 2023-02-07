@@ -1,0 +1,23 @@
+广东省博物馆文物照片正则匹配
+源码
+a = """
+<li class="li">
+							<a href="/cn/col49/24125" class="qui-hover">
+								<div class="qui-ytable">
+									<div class="qui-ytable-cell">
+											<img src="/upload/cn/image/2022-10/col49/1664611180828.jpg" alt="" class="qui-img">
+									</div>
+								</div>
+								<p class="p qui-dot"><span class="qui-col-99">名称：</span><span>清梅清山水册</span></p>
+								<p class="p qui-dot"><span class="qui-col-99">年代：</span><span>清代</span></p>
+								<p class="p qui-dot"><span class="qui-col-99">类型：</span><span>绘画</span></p>
+<!--								<p class="p qui-dot"><span class="qui-col-99">库别：</span><span>书画库</span></p>-->
+							</a>
+						</li>
+"""
+
+ex = '<li class="li">.*?<img src="(.*?)" alt=.*?</li>'
+
+
+b = re.findall(ex, a, re.S)[0]
+print(b)

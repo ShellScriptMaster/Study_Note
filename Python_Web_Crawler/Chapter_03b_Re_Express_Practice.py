@@ -37,4 +37,21 @@ key = 'saas and sas and saaaas'
 g = re.findall('sa{1,2}s', key)
 print(g)
 
+# 提取img的来源scr
+web_data_1 = """
+<div class="article">
+<a href="detailRelic.html?parentID=b320ac1b-29c8-4c68-a11f-dcffe58a0ad1&amp;id=9f910332-2853-4aff-9f87-04741fe4b513&amp;articleID=7fbb7b5c-3e34-4fde-8b1d-37885aa64e3c" target="_blank" class="imgbg">
+<img src="/Attached/2019/10/15/24ac4e1dc02e6f7229ef7e0bbcb061f1.jpg">
+<div class="title-btns">
+<div class="ico-3d"></div>
+</div>
+</a>
+<div class="title">
+<div class="title-main">“V”形符号饼形金1号</div>
+</div>
+</div>
+"""
+ex = '<div class="article">.*?<img src="(.*?)">.*?</div>'
+h = re.findall(ex, web_data_1, re.S)    # re.S --> 单行匹配 ; re.M --> 多行匹配
+print(h)
 
