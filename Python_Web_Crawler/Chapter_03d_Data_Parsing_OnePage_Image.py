@@ -24,7 +24,7 @@ for i in images:
     image_name = re.findall(ex, i)[0]
     img_url = 'http://www.gdmuseum.com'+i
     img_response = requests.get(img_url, headers).content
-    with open('./Test_Picture/%s'% image_name, 'wb') as fp:
+    with open('C:/Users/shell_master/Desktop/爬虫照片/%s'% image_name, 'wb') as fp:
         fp.write(img_response)
         print(image_name, '保存成功')
 
