@@ -41,8 +41,8 @@ for li in book_info:
         content.encoding = 'utf-8'
         details = content.text
         remove = str(details).split('/')[0]             # 删除【NBSP】空格
-        del_sapce = str(remove).replace(u'\xa0', '')    # 删除【NBSP】空格
-        fp.write(del_sapce)
+        del_space = str(remove).replace(u'\xa0', '')    # 删除【NBSP】空格
+        fp.write(del_space)
     print('%s 爬取下载成功!!!!' % title)
 
 

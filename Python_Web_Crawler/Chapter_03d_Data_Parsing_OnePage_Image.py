@@ -11,7 +11,7 @@ headers = {
 response = requests.get(url, headers)
 web_code = response.text
 
-with open('./广东省博物馆.html', 'w', encoding='utf-8') as fp:
+with open('./Element/广东省博物馆.html', 'w', encoding='utf-8') as fp:
     fp.write(web_code)
 # 使用聚焦爬虫将页面所有的图片进行解析/提取
 # 找到图片所属的标签,使用正则找到所有img对应的src并存入列表中

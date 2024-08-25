@@ -16,7 +16,7 @@ import requests
 import json
 
 post_url = 'https://fanyi.baidu.com/sug'        # 指定url
-word = input('input a word')
+word = input('input a word ')
 header = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'     # UA 伪装
 }
@@ -29,6 +29,6 @@ response = requests.post(url=post_url, data=data, headers=header)   # 发送请�
 dic_obj = response.json()     # 此处返回的是一个obj  只有确定了响应数据是json类型才能使用json方法  通过网页F12的响应头中的Content-Type可以查看响应数据类型
 print(dic_obj)
 print(type(response.json()))
-fp = open('./Chapter_02c_Request_Translation.json', mode='w', encoding='utf-8')
+fp = open('./Element/Chapter_02c_Request_Translation.json', mode='w', encoding='utf-8')
 json.dump(dic_obj, fp=fp, ensure_ascii=False)       # 返回的值包含中文因此不能使用ascii码进行编码
 print('Over~ ')

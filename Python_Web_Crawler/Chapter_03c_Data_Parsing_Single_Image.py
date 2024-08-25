@@ -8,7 +8,7 @@ headers = {
 }
 # 图片数据使用content      text, json
 img_data = requests.get(url=url, headers=headers).content
-with open('Single_Img_Test.jpg', 'wb') as fp:
+with open('./Element/Single_Img_Test.jpg', 'wb') as fp:
     fp.write(img_data)
     
 

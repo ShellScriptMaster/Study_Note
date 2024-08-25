@@ -26,7 +26,8 @@ parm = {
 # 对指定url发起的请求对应的url是携带参数的，并且通过requests.get()在请求过程中处理了参数
 response = requests.get(url=url, params=parm, headers=headers)
 page_text = response.text
-file_name = 'Chapter_02b_Request_'+keyword_searching+'.html'
+
+file_name = './Element/Chapter_02b_Request_'+keyword_searching+'.html'
 with open(file_name, mode='w', encoding='utf-8') as result:
     result.write(page_text)
 print(file_name, '保存成功')

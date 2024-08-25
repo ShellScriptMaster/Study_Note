@@ -25,5 +25,8 @@ parm_dict = {
 
 response = requests.get(url=url, headers=headers, params=parm_dict)
 json_obj = response.json()
-fp = open('Chapter_02d_Request_DouBan_Movie.json', mode='w', encoding='utf-8')
-json.dump(json_obj, fp=fp, ensure_ascii=False)
+
+
+with open('./Element/Chapter_02d_Request_DouBan_Movie.json', mode='w', encoding='utf-8') as fp:
+    json.dump(json_obj,fp=fp,ensure_ascii=False)
+

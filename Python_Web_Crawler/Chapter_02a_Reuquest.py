@@ -31,7 +31,10 @@ response = requests.get(url=url)
 page_text = response.text
 print(page_text)
 
-with open('./Chapter_02_Request_Sogou.html', mode='w', encoding='utf-8') as page:
+if not os.path.exists('./Element'):
+    os.mkdir('./Element')
+
+with open('./Element/Chapter_02_Request_Sogou.html', mode='w', encoding='utf-8') as page:
     page.write(page_text)
 print('爬取数据结束')
 

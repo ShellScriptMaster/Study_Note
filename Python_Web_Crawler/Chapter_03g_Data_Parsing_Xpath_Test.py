@@ -16,7 +16,7 @@
             /   : 表示从根节点开始定位
             //  : 表示多个层级,可以表示任意位置开始定位
             属性定位:
-                //div[@class='song'][tag@attrName='attrValue']
+                //div[@class='song  '][tag@attrName='attrValue']
             索引定位:
                 //[div@class='song']/p[3]   索引从1开始, 此处取p标签的第3个
             取文本:

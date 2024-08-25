@@ -17,7 +17,7 @@ parameters = {
 
 response = requests.post(url=url, data=parameters, headers=header)
 page_text = response.text
-with open('Chapter_02e_Request_KFC.txt', mode='w', encoding='utf-8') as page_obj:
+with open('./Element/Chapter_02e_Request_KFC.txt', mode='w', encoding='utf-8') as page_obj:
     page_obj.write(page_text)
 
 print('爬取结束')

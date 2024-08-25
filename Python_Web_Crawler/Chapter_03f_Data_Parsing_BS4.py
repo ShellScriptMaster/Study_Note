@@ -7,7 +7,7 @@
         - 实例化一个BeautifulSoup对象, 并且将网页源码数据加载到该对象中
         - 通过调用BeautifulSoup对象中相关的属性或者方法进行标签定位和数据提取
     环境准备:
-        - bs4
+        - bs4模块
         - bs4解析器
             python标准库             Python内置标准库,执行速度适中,文档容错能力强
             ** lxml HTML            速度快,文档容错能力强
@@ -17,8 +17,8 @@
         - from bs4 import BeautifulSoup
           BeautifulSoup(被解析对象, '解析器')
         - 对象的实例化
-            - 将本地的html文档中的数据加载到该对象中
-            - 将互联网上获取的页面源码加载到该对象中
+            - 将本地的html文档中的数据加载到beautifulSoup对象中
+            - 将互联网上获取的页面源码加载到beautifulSoup对象中
     BeautifulSoup提供的方法和属性
         - bs4_obj.tagName
         - bs4_obj.find(‘tag_Name', class_/id/attr='properties_name')
@@ -37,7 +37,7 @@
 
 """
 from bs4 import BeautifulSoup
-web_obj_local = open('./Chapter_03f_Data_Parsing_BS4_Test_Case.html', 'r', encoding='utf-8')
+web_obj_local = open('./Chapter_03f_Data_Parsing_BS4_Test_Case.html', encoding='utf-8')
 web_obj_bs4 = BeautifulSoup(web_obj_local, 'lxml')
 print('%s bs4_obj.tag_Name %s' % ('*'*30, '*'*30))
 # print(web_obj_bs4)
