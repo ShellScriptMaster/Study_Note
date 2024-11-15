@@ -5,39 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91a6e9f4-ecdc-4d33-9b80-269c4768bb9a" name="Changes" comment="Chapter_03h_Data_Parsing_Xpath_Real 2023/02/16  22:00">
-      <change beforePath="$PROJECT_DIR$/../Linux云计算笔记/12-Services-day1web服务基础&amp;NSF服务.xmind" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linux云计算笔记/29-Operation-day1 nginx配置编译安装&amp;虚拟主机&amp;HTTPS加密&amp;.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux云计算笔记/29-Operation-day1 nginx配置编译安装&amp;虚拟主机&amp;HTTPS加密&amp;.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linux云计算笔记/38-Automation-day4 部署ansible &amp; ansible ad-hoc应用&amp;ansible基本模块.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux云计算笔记/38-Automation-day4 部署ansible &amp; ansible ad-hoc应用&amp;ansible基本模块.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linux云计算笔记/61-RDBMS-day1 DB概述&amp;mysql搭建&amp;基础查询.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux云计算笔记/61-RDBMS-day1 DB概述&amp;mysql搭建&amp;基础查询.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linux云计算笔记/62-RDBMS-day2 库表管理&amp;数据类型&amp;数据导入导出.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux云计算笔记/62-RDBMS-day2 库表管理&amp;数据类型&amp;数据导入导出.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linux云计算笔记/79-Cloud-day4 容器概述&amp;部署docker&amp;容器内部署应用.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux云计算笔记/79-Cloud-day4 容器概述&amp;部署docker&amp;容器内部署应用.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Linux云计算笔记/81-Cloud-day6 k8s&amp;k8s集群部署.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../Linux云计算笔记/81-Cloud-day6 k8s&amp;k8s集群部署.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Basic/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Basic/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python_Basic/.idea/python_coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python_Basic/.idea/python_coding.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Python_Web_Crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_Web_Crawler.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_01_Http.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_01_Http.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02_Request_Sogou.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02a_Reuquest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_02a_Reuquest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02b_Request_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_02b_Request_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02b_Request_kubernetes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02c_Request_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_02c_Request_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02c_Request_Translation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02d_Request_DouBan_Movie.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02d_Request_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_02d_Request_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02e_Request_KFC.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_02e_Request_Practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_02e_Request_Practice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03a_Data_Parsing_Re-Express" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03c_Data_Parsing_Single_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_03c_Data_Parsing_Single_Image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03d_Data_Parsing_OnePage_Image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_03d_Data_Parsing_OnePage_Image.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03d_Data_Parsing_OnePage_Image.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03f_Data_Parsing_BS4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_03f_Data_Parsing_BS4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03f_Data_Parsing_BS4_Test_Case.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03f_Data_Parsing_BS4_Test_Real_Case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_03f_Data_Parsing_BS4_Test_Real_Case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03g_Data_Parsing_Xpath_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_03g_Data_Parsing_Xpath_Test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter_03h_Data_Parsing_Xpath_Real.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_03h_Data_Parsing_Xpath_Real.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Single_Img_Test.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/广东省博物馆.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter_04_Verification.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter_04_Verification.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -74,26 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python tests.Doctests in api.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.Chapter_02c_Request_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Chapter_02d_Request_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Chapter_03b_Re_Express_Practice.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Chapter_03d1_Data_Parsing_OnePage_Image.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Chapter_03g_Data_Parsing_Xpath_Test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Chapter_03h_Data_Parsing_Xpath_Real.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Get_Teacher_info.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pd_excel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.z.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shell_master/Desktop/studying_notebook/Python_Basic&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python tests.Doctests in api.executor": "Debug",
+    "Python.Chapter_02c_Request_Practice.executor": "Run",
+    "Python.Chapter_02d_Request_Practice.executor": "Run",
+    "Python.Chapter_03b_Re_Express_Practice.executor": "Run",
+    "Python.Chapter_03d1_Data_Parsing_OnePage_Image.executor": "Run",
+    "Python.Chapter_03g_Data_Parsing_Xpath_Test.executor": "Run",
+    "Python.Chapter_03h_Data_Parsing_Xpath_Real.executor": "Run",
+    "Python.Chapter_04_Verification.executor": "Run",
+    "Python.Get_Teacher_info.executor": "Run",
+    "Python.pd_excel.executor": "Run",
+    "Python.z.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/shell_master/Desktop/studying_notebook/Python_Algo_Trading",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Python.z">
+}]]></component>
+  <component name="RunManager" selected="Python.Chapter_04_Verification">
     <configuration name="Chapter_03g_Data_Parsing_Xpath_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Web_Crawler" />
       <option name="ENV_FILES" value="" />
@@ -130,6 +102,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_03h_Data_Parsing_Xpath_Real.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Chapter_04_Verification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_Web_Crawler" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter_04_Verification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,28 +176,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pd_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python_Web_Crawler" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_Teacher_Info" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_Teacher_Info/pd_excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="z" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Web_Crawler" />
       <option name="ENV_FILES" value="" />
@@ -228,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Chapter_04_Verification" />
         <item itemvalue="Python.z" />
         <item itemvalue="Python.Chapter_03g_Data_Parsing_Xpath_Test" />
         <item itemvalue="Python.Chapter_03h_Data_Parsing_Xpath_Real" />
         <item itemvalue="Python.Get_Teacher_info" />
-        <item itemvalue="Python.pd_excel" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +294,23 @@
       <option name="project" value="LOCAL" />
       <updated>1676556010182</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Chapter_03h_Data_Parsing_Xpath_Real 2023/02/16  22:00">
+      <option name="closed" value="true" />
+      <created>1724599978168</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724599978168</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Chapter_03h_Data_Parsing_Xpath_Real 2023/02/16  22:00">
+      <option name="closed" value="true" />
+      <created>1724600023524</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724600023524</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
