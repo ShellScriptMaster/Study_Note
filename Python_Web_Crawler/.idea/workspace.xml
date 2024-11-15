@@ -45,26 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python tests.Doctests in api.executor": "Debug",
-    "Python.Chapter_02c_Request_Practice.executor": "Run",
-    "Python.Chapter_02d_Request_Practice.executor": "Run",
-    "Python.Chapter_03b_Re_Express_Practice.executor": "Run",
-    "Python.Chapter_03d1_Data_Parsing_OnePage_Image.executor": "Run",
-    "Python.Chapter_03g_Data_Parsing_Xpath_Test.executor": "Run",
-    "Python.Chapter_03h_Data_Parsing_Xpath_Real.executor": "Run",
-    "Python.Chapter_04_Verification.executor": "Run",
-    "Python.Get_Teacher_info.executor": "Run",
-    "Python.pd_excel.executor": "Run",
-    "Python.z.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/shell_master/Desktop/studying_notebook/Python_Algo_Trading",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python tests.Doctests in api.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Chapter_02c_Request_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter_02d_Request_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter_03b_Re_Express_Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter_03d1_Data_Parsing_OnePage_Image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter_03g_Data_Parsing_Xpath_Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter_03h_Data_Parsing_Xpath_Real.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Chapter_04_Verification.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Get_Teacher_info.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pd_excel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.z.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/shell_master/Desktop/studying_notebook/Python_Algo_Trading&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Chapter_04_Verification">
     <configuration name="Chapter_03g_Data_Parsing_Xpath_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python_Web_Crawler" />
